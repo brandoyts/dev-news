@@ -1,0 +1,29 @@
+.article {
+	background-color: whitesmoke;
+	padding: 25px;
+
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+
+	.article__title {
+		letter-spacing: 1.1px;
+	}
+
+	.article__abstract {
+		letter-spacing: 1.3px;
+		line-height: 1.5;
+	}
+
+	.article__cta {
+		color: white;
+		background-color: black;
+		padding: 5px 10px;
+		align-self: flex-start;
+	}
+
+	.article__source {
+		color: #444;
+	}
+}
